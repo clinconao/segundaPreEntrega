@@ -1,0 +1,83 @@
+[
+    {
+        "title": "Pure con Papas",
+        "description": "Pure de papas con papas salteadas",
+        "price": 2600,
+        "stock": 10,
+        "code": "kcsm233",
+        "thumbnail": [],
+        "id": "4ce497d9a3b56a1d4eee",
+        "img":"1707817911671pizza01.jpg"
+        
+    },
+    {
+        "title": "Pizza a la piedra",
+        "description": "Pizza con rocas y piedras, clavados con un martillo",
+        "price": 220003,
+        "stock": 20,
+        "code": "ksmkx3ssssdc32",
+        "thumbnail": [],
+        "id": "e9ba2151944fff2e32c3",
+        "img":"1707817911671pizza01.jpg"
+    },
+    {
+        "title": "ddd",
+        "description": "comen los ganzos",
+        "price": 20003,
+        "stock": 20,
+        "code": "ksmkxss332",
+        "thumbnail": [],
+        "id": "4ad70ad747bf5c72c563",
+        "img":"1707817911671pizza01.jpg"
+    },
+    {
+        "title": "Producto 6",
+        "description": "comen los ganzos",
+        "price": 20003,
+        "stock": 20,
+        "code": "ksmvgtvkx332",
+        "thumbnail": [],
+        "id": "d547ee0b99cf1b428854",
+        "img":"1707817911671pizza01.jpg"
+    },
+    {
+        "title": "Producto 7",
+        "description": "comen los ganzos",
+        "price": 20003,
+        "stock": 20,
+        "code": "ksmrgvkx332",
+        "thumbnail": [],
+        "id": "3bab30ec2a60e26bf60f",
+        "img":"1707817911671pizza01.jpg"
+    },
+    {
+        "title": "Producto 8",
+        "description": "comen los ganzos",
+        "price": 20003,
+        "stock": 20,
+        "code": "ksmdekx332",
+        "thumbnail": [],
+        "id": "4028c3e5129afaacfa8a",
+        "img":"1707817911671pizza01.jpg"
+    },
+    {
+        "title": "Producto 9",
+        "description": "comen los ganzos",
+        "price": 20003,
+        "stock": 20,
+        "code": "ksmkddx332",
+        "thumbnail": [],
+        "id": "e0ab865b15f80279e18e",
+        "img":"1707817911671pizza01.jpg"
+    },
+    {
+        "title": "Producto 10",
+        "description": "comen los ganzos",
+        "price": 20003,
+        "stock": 20,
+        "code": "ksmvvtkx332",
+        "thumbnail": [],
+        "id": "a58ddc3a0e98e831275b",
+        "img":"1707817911671pizza01.jpg"
+    }
+]
