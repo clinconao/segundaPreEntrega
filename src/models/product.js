@@ -1,5 +1,6 @@
 
-import { Schema, model } from "mongoose"
+import { Schema, model } from "mongoose";
+import paginate from "mongoose-paginate-v2";
 
 const productSchema = new Schema({
     title: {
@@ -25,6 +26,7 @@ const productSchema = new Schema({
     },
     code: {
         type: String,
+        requerid: true,
         unique: true
     },
     price: {
@@ -35,6 +37,8 @@ const productSchema = new Schema({
         default: []
     }
 })
+
+productSchema.plugin(paginate)
 
 const productModel = model("products", productSchema)
 
