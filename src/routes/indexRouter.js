@@ -4,6 +4,8 @@ import userRouter from "./userRouter.js"
 import chatRouter from "./chatRouter.js"
 import express from 'express'
 import upload from '../config/multer.js'
+
+import sessionRouter from "./sessionRoutes.js"
 import { __dirname } from '../path.js'
 
 
@@ -16,6 +18,8 @@ indexRouter.use('/api/products', productsRouter, express.static(__dirname + '/pu
 indexRouter.use('/api/cart ', cartRouter)
 indexRouter.use('/api/chat', chatRouter, express.static(__dirname + '/public'))
 indexRouter.use('/api/users', userRouter)
+
+indexRouter.use('/api/session', sessionRouter)
 
 indexRouter.post('/upload', upload.single('product'), (req, res) => {
 
